@@ -26,7 +26,7 @@ def process_emails():
 
     sender_email = os.getenv("SENDER_EMAIL")
     sender_password = os.getenv("SENDER_PASSWORD")
-    attachment_path = "static/resume.pdf"
+    attachment_path = "static/VihaanPhal_Fulltime.pdf"
 
     for _, row in recruiters.iterrows():
         name, email, company = row["Name"], row["Email"], row["Company"]
